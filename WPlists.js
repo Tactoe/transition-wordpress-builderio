@@ -1,0 +1,68 @@
+const WPThematics = {
+  66: {old: 'alimentation', new: 'Environnement'},
+  177: {old: 'alternatives', new: 'Alternatives'},
+  210: {old: 'anti-plastique', new: 'Environnement'},
+  99: {old: 'Bien vieillir', new: 'Mieux vivre'},
+  191: {old: 'Bifurcation', new: 'Transitions'},
+  204: {old: 'bonnes nouvelles', new: 'Mieux vivre'},
+  221: {old: 'Mieux vivre', new: 'Mieux vivre'},
+  211: {old: 'Bousculeurs', new: 'Transitions'},
+  197: {old: 'Changer de voie', new: 'Transitions'},
+  56: {old: 'Climat', new: 'Environnement'},
+  49: {old: 'Communautés', new: 'Communautés'},
+  153: {old: 'communication', new: 'Entrepreneuriat'},
+  65: {old: 'Culture', new: 'Culture'},
+  158: {old: 'déconstruction', new: 'Justice Sociale'},
+  229: {old: 'société', new: 'Société'},
+  168: {old: 'démocratie', new: 'Société'},
+  149: {old: 'écologie', new: 'Environnement'},
+  169: {old: 'edtech', new: 'Éducation'},
+  63: {old: 'Éducation', new: 'Éducation'},
+  59: {old: 'Entrepreneuriat', new: 'Entrepreneuriat'},
+  115: {old: 'Entreprises', new: 'Transformation des organisations'},
+  54: {old: 'Environnement', new: 'Environnement'},
+  88: {old: 'Féminisme', new: 'Féminisme'},
+  109: {old: 'Gouvernance', new: 'Société'},
+  62: {old: 'handicap', new: 'Justice Sociale'},
+  83: {old: 'Inclusion', new: 'Justice Sociale'},
+  61: {old: 'Innovation', new: 'Environnement'},
+  198: {old: 'Insertion', new: 'Justice Sociale'},
+  60: {old: 'Intrapreneuriat', new: 'Transformation des organisations'},
+  134: {old: 'Jobs à impact', new: 'Transitions'},
+  184: {old: 'legislatives', new: 'Société'},
+  111: {old: 'Mécénat de compétences', new: 'Transformation des organisations'},
+  64: {old: 'Mode éthique', new: 'Mieux vivre'},
+  151: {old: 'modèle économique', new: 'Entrepreneuriat'},
+  216: {old: 'Nature', new: 'Environnement'},
+  218: {old: 'océan', new: 'Environnement'},
+  147: {old: 'Open Innovation', new: 'Transformation des organisations'},
+  124: {old: 'Paumé.e.s', new: 'Transitions'},
+  163: {old: 'paumées', new: 'Transitions'},
+  209: {old: 'plastique', new: 'Environnement'},
+  172: {old: 'pointscommuns', new: 'Communautés'},
+  183: {old: 'Politique', new: 'Société'},
+  116: {old: 'Quête de sens', new: 'Transitions'},
+  164: {old: 'racime', new: 'Justice Sociale'},
+  104: {old: 'Réfugiés', new: 'Justice Sociale'},
+  152: {old: 'relations presse', new: 'Entrepreneuriat'},
+  189: {old: 'sobriété', new: 'Mieux vivre'},
+  186: {old: 'social', new: 'Féminisme'},
+  55: {old: 'Solidarité', new: 'Justice Sociale'},
+  84: {old: 'tech for good', new: 'Entrepreneuriat'},
+  215: {old: 'Territoires', new: 'Transformation des organisations'},
+  101: {old: 'Transition', new: 'Transitions'}
+};
+
+var WPMedias = {
+  51: {new: 'Article'},
+  74: {old: 'Infographie', new: 'Article'},
+  72: {new: 'Podcast'},
+  73: {new: 'Vidéo'}
+};
+
+var WPFormats = {
+  50: {new: "S'inspirer"},
+  70: {new: 'Comprendre'},
+  69: {new: 'Agir'}
+};
+module.exports = {WPThematics: WPThematics, WPMedias: WPMedias, WPFormats: WPFormats};
